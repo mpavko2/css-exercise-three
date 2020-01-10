@@ -12,15 +12,16 @@ body {
 
 .container {
   background-color: #D6D6D6;
-  margin: 0 auto;
+  margin: 0px auto;
   width: 420px;
+  box-sizing: border-box;
 
 }
 
 nav {
   margin: 0 auto;
   background-color: black;
-  padding: 10px 0 15px 15px;
+  padding: 15px 0px 10px 0px;
   position: fixed;
   width: 420px;
 }
@@ -39,20 +40,31 @@ nav {
 }
 
 .restaurant-list {
-  padding: 45px 0px 20px 0px;
-
+  padding: 45px 0px 0px 0px;
 }
+
 .arrow {
-  margin: 0px 0% 0px 95%;
   display: inline-block;
+  padding: 5%;
+}
+
+.arrow-left {
+  padding: 0px 0px 0px 20px;
 }
 
 .content {
+  padding: 20px 0 15px 5%;
+  display: inline-block;
+  width: 80%;
+}
 
-  padding: 20px 0 10px 5%;
-  border: 1px solid #ADADAD;
-
+.location {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+    border: 1px solid #ADADAD;
 }
 
 .location:hover {
-  color:#7F7F7F; }
+  background-color:#7F7F7F;
+}
